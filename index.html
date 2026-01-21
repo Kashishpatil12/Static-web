@@ -3,36 +3,41 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Static</title>
+
+    <title>STATIC | Future Ready Learning</title>
+    <meta name="description" content="Future-ready digital learning platform designed to build practical skills for modern careers.">
 
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
+<!-- Header -->
 <header class="header">
     <nav class="navbar">
         <div class="logo">STATIC</div>
 
         <ul class="nav-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Solutions</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#solutions">Solutions</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
         <button class="menu-btn" id="menuBtn">☰</button>
     </nav>
 </header>
 
-<section class="hero">
+<!-- Hero -->
+<section class="hero" id="home">
     <div class="hero-content reveal">
         <span class="badge">Future-Ready Learning</span>
         <h1>Empowering Digital Skills<br>For Tomorrow</h1>
         <p>
-            A modern learning platform designed to bridge the gap between
-            academic knowledge and real-world industry expectations.
+            A modern learning platform bridging academic knowledge
+            with real-world industry expectations.
         </p>
+
         <div class="hero-actions">
             <button class="primary-btn">Get Started</button>
             <button class="secondary-btn">Learn More</button>
@@ -40,6 +45,7 @@
     </div>
 </section>
 
+<!-- Stats -->
 <section class="stats">
     <div class="stat-card reveal">
         <h3>10K+</h3>
@@ -55,38 +61,97 @@
     </div>
 </section>
 
+<!-- Main Content -->
 <main>
-    <section class="content-section reveal">
-        <h2>Who We Are</h2>
-        <p>
-            We are a professional digital education initiative focused on
-            building strong foundations in technology, design, and innovation.
-            Our programs are structured to promote clarity, confidence, and
-            career growth.
-        </p>
+
+    <!-- About -->
+    <section class="section about reveal" id="about">
+        <div class="section-header">
+            <h2>About STATIC</h2>
+            <p>Building industry-ready professionals through structured digital learning.</p>
+        </div>
+
+        <div class="about-grid">
+            <div>
+                <h3>Who We Are</h3>
+                <p>
+                    STATIC is a future-focused digital learning initiative designed to bridge the
+                    gap between academic knowledge and real-world industry requirements.
+                </p>
+            </div>
+
+            <div>
+                <h3>Our Mission</h3>
+                <p>
+                    To deliver disciplined, practical, and outcome-oriented learning
+                    experiences that empower learners to grow confidently in their careers.
+                </p>
+            </div>
+        </div>
     </section>
 
-    <section class="content-section reveal">
-        <h2>What We Offer</h2>
-        <p>
-            From guided training programs to hands-on project experience,
-            we ensure learners are prepared to meet industry challenges
-            with practical knowledge and real-time exposure.
-        </p>
+    <!-- Solutions -->
+    <section class="section solutions reveal" id="solutions">
+        <div class="section-header">
+            <h2>Our Solutions</h2>
+            <p>Designed to support skill development at every stage.</p>
+        </div>
+
+        <div class="card-grid">
+            <div class="info-card">
+                <h4>Structured Learning</h4>
+                <p>Well-planned curricula aligned with current industry standards.</p>
+            </div>
+
+            <div class="info-card">
+                <h4>Hands-on Projects</h4>
+                <p>Practical assignments that build real-world problem-solving skills.</p>
+            </div>
+
+            <div class="info-card">
+                <h4>Mentor Support</h4>
+                <p>Guidance from experienced professionals and industry mentors.</p>
+            </div>
+        </div>
     </section>
 
-    <section class="content-section reveal">
-        <h2>Our Vision</h2>
-        <p>
-            To create a learning ecosystem that values skills, discipline,
-            and consistency, helping individuals transition smoothly
-            into professional environments.
-        </p>
+    <!-- Why Choose Us -->
+    <section class="section highlight reveal">
+        <div class="section-header">
+            <h2>Why Choose STATIC</h2>
+            <p>Focused on quality, discipline, and long-term growth.</p>
+        </div>
+
+        <ul class="feature-list">
+            <li>Industry-relevant curriculum</li>
+            <li>Skill-based evaluation approach</li>
+            <li>Career-focused learning model</li>
+            <li>Continuous performance tracking</li>
+        </ul>
     </section>
+
+    <!-- Careers -->
+    <section class="section careers reveal" id="careers">
+        <div class="section-header">
+            <h2>Careers at STATIC</h2>
+            <p>Grow with us and shape the future of digital education.</p>
+        </div>
+
+        <p class="center-text">
+            We are always looking for passionate educators, mentors,
+            and digital professionals who believe in practical learning.
+        </p>
+
+        <div class="center-btn">
+            <button class="primary-btn">View Open Positions</button>
+        </div>
+    </section>
+
 </main>
 
-<footer class="footer">
-    <p>© 2026 STATIC • Educational UI Demonstration | Design By Kashish Patil</p>
+<!-- Footer -->
+<footer class="footer" id="contact">
+    <p>© 2026 STATIC • Educational UI Demonstration | Design by Kashish Patil</p>
 </footer>
 
 <script src="js/script.js"></script>
